@@ -1,14 +1,13 @@
-Simple registration
+## Simple registration
 
- localhost_3000.-.Google.Chrome.2021-11-17.22-01-59.mp4 
+https://user-images.githubusercontent.com/62512557/142334796-89ae5a93-564f-484f-b2ad-769dcc242c9d.mp4
 
 
-
+## I used in this project TypeScript, Nextjs, React,TypeScript, firebase database
 
 ## Getting Started
 
 First, run the development server:
-
 
 npm run dev
 

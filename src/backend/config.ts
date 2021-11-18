@@ -1,11 +1,11 @@
-import firebase from 'firebase';
+import firebase from "firebase";
 import 'firebase/firestore'
 
 if (!firebase.apps.length) {
-    firebase.initialiseApp({
-        apikey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+    firebase.initializeApp({
+        apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
         authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-        projectid: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+        projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
     })
 }
 

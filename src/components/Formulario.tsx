@@ -19,7 +19,7 @@ export default function Formulario(props: FormularioProps) {
             {id ? (
                 <Entrada
                     somenteLeitura
-                    texto="Código"
+                    texto="Code"
                     valor={id}
                     className="mb-5"
                 />
@@ -39,7 +39,7 @@ export default function Formulario(props: FormularioProps) {
             <div className="flex justify-end mt-7">
                 <Botao cor="blue" className="mr-2"
                     onClick={() => props.clienteMudou?.(new Cliente(nome, +idade, id))}>
-                    {id ? 'Alterar' : 'Save'}
+                    {id ? 'Change' : 'Save'}
                 </Botao>
                 <Botao onClick={props.cancelado}>
                     Cancel

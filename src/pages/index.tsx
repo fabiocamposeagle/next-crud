@@ -24,13 +24,13 @@ export default function Home() {
       bg-gradient-to-r from-blue-500 to-purple-500
       text-white
     `}>
-      <Layout titulo="Cadastro Simples">
+      <Layout titulo="Simple registration">
         {tabelaVisivel ? (
           <>
             <div className="flex justify-end">
               <Botao cor="green" className="mb-4"
                 onClick={novoCliente}>
-                Novo Cliente
+                New Client
               </Botao>
             </div>
             <Tabela clientes={clientes}
